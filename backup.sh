@@ -6,7 +6,7 @@ OUT_DIR="/tmp/backups"
 NAME="${BACKUP_NAME:-render-postgres}"
 FILE="$OUT_DIR/${NAME}_${TS}.dump"
 GZ_FILE="${FILE}.gz"
-DEST_BASE="${ONEDRIVE_DEST:-onedrive:Products/DataBank/Datafiler - ny/Skibsdata/Render}"
+DEST_BASE="${ONEDRIVE_DEST:-onedrive:Render/Backups}"
 
 mkdir -p "$OUT_DIR"
 
